@@ -1,0 +1,12 @@
+Next Permutation
+
+1 5 8 4 7 6 5 3 1
+4 is the first letter from the right small than its right, i.e. 4 < 7
+
+1 5 8 5 7 6 4 3 1
+Switch 4 with the one just large than it to his right, i.e. swap 4, 5
+
+1 5 8 5 1 3 4 6 7
+Reverse the the sublist to the right of 5.
+
+The key to solve the problem is to figure out how to get the next permutation by observation from an example. Here 1 5 8 4 7 6 5 3 1 is a good example.
