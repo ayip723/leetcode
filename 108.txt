@@ -1,0 +1,3 @@
+I need a helper function accepting a range, i.e. left, right
+Get the middle element, build the node
+Call left range with helper. Then call the right range with helper. And attach to the node just built.
