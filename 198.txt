@@ -1,0 +1,3 @@
+max_robbed, max_not_robbed
+
+max_robbed, max_not_robbed = max_not_robbed + num, max(max_robbed, max_not_robbed)
