@@ -1,0 +1,1 @@
+Keep an variable named "last" for the last slot it can reach. Loop through the array to keep updating "last". Then see if last >= length - 1.
