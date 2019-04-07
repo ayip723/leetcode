@@ -1,0 +1,11 @@
+Whenever you add a number i, it's like you have a series of options:
+num of left, num of right
+0, i - 1
+1, i - 1 - 1
+2, i - 2 - 2
+...
+i - 1, 0
+
+You can get this from the dp array. And you should time them and them some the products.
+
+The dp should start with 0 node(s), which have only 1 possibility, i.e. empty child.
