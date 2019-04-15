@@ -1,0 +1,9 @@
+        result = imin = imax = nums[0]
+        for i in range(1, len(nums)):
+            num = nums[i]
+            imax, imin = max(num, num * (imax if num > 0 else imin)), min(num, num * (imin if num > 0 else imax))
+            if imax > result:
+                result = imax
+        return result
+
+Self-explanatory.
